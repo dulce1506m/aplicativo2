@@ -13,7 +13,7 @@
     <hr>
     <button type="button" class="btn btn-primary btn-block" id="btnconsultar">consultar</button>
     <br>
-    <table>
+    <table class="table table-hover text-nowrap">
             <thead>
                 <tr>
             <th>id</th>
@@ -29,5 +29,5 @@
     </table>
 </div>
 </body>
-<script src="js/consultarjs"></script>
+<script src="js/consultar.js"></script>
 </html>

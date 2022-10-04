@@ -7,7 +7,7 @@ function buscar() {
     btnconsultar.addEventListener('click', obtenerClientes);
 }
 async function obtenerClientes(){
-    const url = "data/consultartd.php?accion=listar";
+    const url = "datos/consultartd.php?accion=listar";
     const respuesta = await fetch(url);
     const resultado = await respuesta.json();
     if(resultado.codigo === 200){
